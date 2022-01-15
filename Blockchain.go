@@ -53,7 +53,7 @@ func main() {
 
 	go func() {
 		fmt.Println("New York")
-		rand.Seed(20)
+		rand.Seed(21)
 		bc := NewBlockchain()
 
 		bc.AddBlock(Data{name: "Kirk", value: "down"})
